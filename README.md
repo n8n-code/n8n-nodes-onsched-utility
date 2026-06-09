@@ -53,9 +53,13 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Health | Get utility v 1 health heartbeat, Get utility v 1 health threadinfo |
+<details>
+<summary><b>Health</b> (2 operations)</summary>
+
+- Get Utility v1 Health Heartbeat
+- Get Utility v1 Health Threadinfo
+
+</details>
 
 ---
 

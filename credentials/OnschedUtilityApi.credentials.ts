@@ -8,7 +8,7 @@ import type {
 export class OnschedUtilityApi implements ICredentialType {
 	name = 'N8nDevOnschedUtilityApi';
 
-	displayName = 'onsched-utility API';
+	displayName = 'Onsched Utility API';
 
 	icon: Icon = { light: 'file:../nodes/OnschedUtility/onsched-utility.svg', dark: 'file:../nodes/OnschedUtility/onsched-utility.dark.svg' };
 
@@ -22,7 +22,7 @@ export class OnschedUtilityApi implements ICredentialType {
 			default: 'https://sandbox-api.onsched.com/',
 			required: true,
 			placeholder: 'https://sandbox-api.onsched.com/',
-			description: 'The base URL of your onsched-utility API server',
+			description: 'The base URL of your Onsched Utility API server',
 		},
 		{
 			displayName: 'API Key',

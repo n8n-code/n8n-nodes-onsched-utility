@@ -3,14 +3,14 @@ import { healthDescription } from './resources/health';
 
 export class OnschedUtility implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'onsched-utility',
+		displayName: 'Onsched Utility',
 		name: 'N8nDevOnschedUtility',
 		icon: { light: 'file:./onsched-utility.svg', dark: 'file:./onsched-utility.dark.svg' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
 		description: 'Endpoints for system utilities. e.g.Health',
-		defaults: { name: 'onsched-utility' },
+		defaults: { name: 'Onsched Utility' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

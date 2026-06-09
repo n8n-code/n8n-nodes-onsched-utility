@@ -15,9 +15,9 @@ export const healthDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "GET Utility V 1 Health Heartbeat",
-					"value": "GET Utility V 1 Health Heartbeat",
-					"action": "GET Utility V 1 Health Heartbeat",
+					"name": "GET Utility v1 Health Heartbeat",
+					"value": "GET Utility v1 Health Heartbeat",
+					"action": "GET Utility v1 Health Heartbeat",
 					"description": "",
 					"routing": {
 						"request": {
@@ -27,9 +27,9 @@ export const healthDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Utility V 1 Health Threadinfo",
-					"value": "GET Utility V 1 Health Threadinfo",
-					"action": "GET Utility V 1 Health Threadinfo",
+					"name": "GET Utility v1 Health Threadinfo",
+					"value": "GET Utility v1 Health Threadinfo",
+					"action": "GET Utility v1 Health Threadinfo",
 					"description": "",
 					"routing": {
 						"request": {
@@ -55,7 +55,7 @@ export const healthDescription: INodeProperties[] = [
 						"Health"
 					],
 					"operation": [
-						"GET Utility V 1 Health Heartbeat"
+						"GET Utility v1 Health Heartbeat"
 					]
 				}
 			}
@@ -74,7 +74,7 @@ export const healthDescription: INodeProperties[] = [
 						"Health"
 					],
 					"operation": [
-						"GET Utility V 1 Health Threadinfo"
+						"GET Utility v1 Health Threadinfo"
 					]
 				}
 			}
