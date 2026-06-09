@@ -1,0 +1,1 @@
+export { healthDescription } from './health';
